@@ -141,6 +141,10 @@ img{
         width: auto;
     }
 
+    .hero-section{
+        width: 100%;
+    }
+
     .img::after {
         content: '';
         position: absolute;
