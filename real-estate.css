@@ -138,7 +138,7 @@ img{
     }
 
     .hero-container{
-        width: auto;
+        width: 560px;
     }
 
     .img::after {
@@ -164,7 +164,7 @@ img{
       }
 
       .lower{
-        width: 520px;
+        width: 97%;
         
       }
 
@@ -184,7 +184,7 @@ img{
 
 
       .details{
-        width: auto;
+        width: 95%;
         gap: 390px;
       }
 
