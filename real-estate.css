@@ -130,3 +130,67 @@ img{
     border-radius: 30px;
 
 }
+
+@media (max-width: 576px){
+
+    nav{
+        width: auto;
+    }
+
+    .hero-container{
+        width: auto;
+    }
+
+    .img::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+        background: linear-gradient(to bottom, rgba(8, 8, 8, 0.5), rgba(110, 117, 7, 0));
+        pointer-events: none;
+        border-radius: 30px;
+      }
+
+      .upper{
+        font-size: 15px;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 15px;
+      }
+
+      .lower{
+        width: 520px;
+        
+      }
+
+      .lower div ul{
+        width: auto;
+        gap: 16px;
+      }
+
+      .lower div li{
+        font-size: 12px;
+      }
+
+      .lower div p{
+        font-size: 14px;
+      }
+
+
+
+      .details{
+        width: auto;
+        gap: 390px;
+      }
+
+      .home{
+        padding: 5px;
+      }
+
+      
+}
